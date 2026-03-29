@@ -44,6 +44,8 @@ SMTP_CONFIGS = {
     "aliyun.com": {"server": "smtp.aliyun.com", "port": 465, "ssl": True},
     # 139邮箱
     "139.com": {"server": "smtp.139.com", "port": 465, "ssl": True},
+    # Brevo
+    "smtp-brevo.com": {"server": "smtp-relay.brevo.com", "port": 587, "ssl": True},
 }
 
 
